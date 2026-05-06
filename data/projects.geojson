@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "FR-001",
+        "title": "Fuels Reduction – Lower Bitterroot",
+        "category": "Forest & Fire Resilience",
+        "county": "Ravalli",
+        "description": "Forest thinning and defensible space improvements.",
+        "acres": 1250,
+        "people_served": 0,
+        "dollars": 375000,
+        "quote": "This work protected our home and neighbors."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.07, 46.03]
+      }
+    }
+  ]
+}
