@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Bitter Root RC&D Impact Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Marker Cluster -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css"
+  />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Bitter Root RC&D Impact Map</h1>
+  </header>
+
+  <div id="container">
+    <aside id="controls">
+      <h2>Filter by Program</h2>
+      <label><input type="checkbox" value="Forest & Fire Resilience" checked> Forest & Fire</label>
+      <label><input type="checkbox" value="Water & Watersheds" checked> Water</label>
+      <label><input type="checkbox" value="Housing & Community Stability" checked> Housing</label>
+      <label><input type="checkbox" value="Youth & Education" checked> Youth</label>
+      <label><input type="checkbox" value="Capacity & Collaboration" checked> Capacity</label>
+    </aside>
+
+    <main id="map"></main>
+
+    <section id="story-panel" class="hidden">
+      <button id="close-panel">×</button>
+      <div id="story-content"></div>
+    </section>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script src="map.js"></script>
+
+</body>
+</html>
